@@ -1,5 +1,13 @@
 # message-transformer-vue
 
+Message Transformer VUE is a webpage that can convert a message by calling a REST api.
+
+## Requirements
+
+- npm
+- node
+- vue
+
 ## Project setup
 ```
 npm install
@@ -15,16 +23,8 @@ npm run serve -- --port 8081
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ## Local Development
 
 ### Testing
 
-Use the Chrome plugin `Allow CORS: Access-Control-Allow-origin`
+Use the Chrome plugin `Allow CORS: Access-Control-Allow-origin` to avoid problems with CORS
